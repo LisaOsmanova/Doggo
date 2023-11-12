@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .spinner {
+    animation: spin 2s ease-in-out infinite;
+    font-size: 50px;
+    text-align: center;
+    display: none;
+  }
+
+  .img {
+    display: none;
+    max-width: 90%;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(57, 126, 83);
+    padding: 0 10px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    overflow: hidden;
+  }
+
+  h1 {
+    color: rgb(59, 58, 58);
+  }
